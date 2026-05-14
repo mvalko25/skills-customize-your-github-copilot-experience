@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Web Page</h1>
+        <p>Welcome! Click the buttons below to see JavaScript in action.</p>
+    </header>
+
+    <main>
+        <section class="content">
+            <h2>Getting Started</h2>
+            <p id="message">This text will change when you click a button.</p>
+            
+            <div class="button-group">
+                <!-- TODO: Add click event handlers to these buttons -->
+                <button id="changeTextBtn">Change Text</button>
+                <button id="toggleVisibilityBtn">Toggle Content</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>User Input</h2>
+            <!-- TODO: Add form submission handler -->
+            <form id="userForm">
+                <label for="nameInput">Enter your name:</label>
+                <input type="text" id="nameInput" placeholder="Your name here" required>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formOutput"></div>
+        </section>
+
+        <section class="hidden-content" id="hiddenContent">
+            <h3>Secret Content</h3>
+            <p>This content is initially hidden. Use the "Toggle Content" button to show/hide it!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mergington High School</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

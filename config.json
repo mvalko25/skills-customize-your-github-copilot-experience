@@ -72,6 +72,30 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "web-basics-interactive",
+      "title": "Building Interactive Web Pages",
+      "description": "Create dynamic web pages using HTML for structure, CSS for styling, and JavaScript for interactivity.",
+      "path": "assignments/web-basics-interactive",
+      "dueDate": "2026-05-21",
+      "attachments": [
+        {
+          "name": "HTML Starter",
+          "file": "index.html",
+          "type": "html"
+        },
+        {
+          "name": "CSS Styles",
+          "file": "styles.css",
+          "type": "css"
+        },
+        {
+          "name": "JavaScript Code",
+          "file": "script.js",
+          "type": "javascript"
+        }
+      ]
     }
   ]
 }
